@@ -1,0 +1,31 @@
+{
+  "name": "awesome-ghost",
+  "description": "A curated list of awesome resources, themes, tools, integrations, and tutorials for Ghost CMS.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendweb3/awesome-ghost.git"
+  },
+  "keywords": [
+    "awesome-ghost",
+    "ghost",
+    "cms"
+  ],
+  "author": "Rajdeep singh",
+  "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/frontendweb3/awesome-ghost/issues"
+  },
+  "scripts": {
+    "format": "pnpm dlx prettier --write ./README.md",
+    "lint": "npx awesome-lint ./README.md",
+    "test": "pnpm run format && pnpm run lint"
+  },
+  "homepage": "https://github.com/frontendweb3/awesome-ghost#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
+}
