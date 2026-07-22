@@ -573,6 +573,9 @@ Educational content for learning Ghost.
 
 - [Hostinger Ghost Tutorial](https://www.hostinger.com/ph/tutorials/ghost-tutorial) - Complete guide from install to customization.
 - [How to Build a Blog with the Ghost API and Next.js](https://docs.ghost.org/) - Official developer documentation.
+- [Build a Blog Website with Ghost API and Next.js](https://www.freecodecamp.org/news/build-a-blog-website-with-ghost-api-and-nextjs/) - freeCodeCamp guide on headless Ghost with Next.js.
+- [How to Build a Ghost CMS Theme](https://www.freecodecamp.org/news/how-to-build-a-ghost-cms-theme/) - freeCodeCamp walkthrough from install to custom theme creation.
+- [Fix Ghost CMS Errors](https://www.freecodecamp.org/news/fix-ghost-cms-errors/) - freeCodeCamp troubleshooting guide for common Ghost errors.
 
 ### Courses
 
@@ -599,6 +602,7 @@ Educational content for learning Ghost.
 
 Places where the Ghost community gathers.
 
+- [Ghost Forum](https://forum.ghost.org/) - Official community forum for discussions and support.
 - [Reddit r/Ghost](https://www.reddit.com/r/ghost) - News, highlights, and user discussions.
 - [GitHub (TryGhost)](https://github.com/tryghost) - Source code, issues, releases, feature requests.
 - [Ghost on Twitter/X](https://twitter.com/ghost) - Official updates and announcements.
