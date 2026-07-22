@@ -2,8 +2,6 @@
 
 > A curated list of awesome resources, themes, tools, integrations, starter projects, tutorials, and developer resources for **Ghost CMS**.
 
-Inspired by the [Awesome](https://awesome.re) philosophy.
-
 The goal of this repository is to help **publishers, developers, designers, and creators** discover the best resources in the Ghost ecosystem. Instead of searching through blogs, forums, and GitHub repositories, you'll find the most useful resources organized into carefully curated categories.
 
 ---
