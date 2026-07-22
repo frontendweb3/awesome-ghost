@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.page/schema.json",
+  "name": "Awesome Ghost",
+  "description": "A curated list of awesome resources, themes, tools, integrations, starter projects, tutorials, and developer resources for Ghost CMS.",
+  "sidebar": [
+    {
+      "group": "Home",
+      "pages": [
+        {
+          "title": "README",
+          "href": "/",
+          "icon": "home"
+        }
+      ]
+    }
+  ]
+}
