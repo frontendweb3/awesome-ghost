@@ -215,7 +215,7 @@ Commercial themes with advanced functionality and professional support.
 - [Tozan](https://fueko.net/themes/tozan/) - Bold, modern editorial theme for magazines with membership tiers.
 - [Enova](https://enova.studio/themes/enova/) - Magazine-shaped theme for lifestyle/business publications with 4 homepage layouts.
 
-**Theme Shops:**
+### Theme Shops
 
 - [Ghost Marketplace](https://ghost.org/themes/) - Official marketplace for free and premium themes.
 - [Bright Themes](https://brightthemes.com/) - Premium Ghost themes with bundle pricing.
