@@ -362,6 +362,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 
 ### Developer Tools
 
+- [Ghost TOC Plugin](https://ghost-toc-plugin.greedylabs.kr/en/) - Table of contents plugin for Ghost CMS.
 - [Ghost Theme Builder (GTB)](https://github.com/royalfig/ghost-theme-dev) - Build framework with esbuild, live reload, CSS hot injection, and image optimization.
 - [Ghost Studio](https://github.com/XED-dev/Studio) - AI-agent-first Ghost theme factory with CLI and YAML presets.
 - [ghost-docker-dev](https://github.com/eddywashere/ghost-docker-dev) - Multi-theme Ghost dev environment via Docker Compose.
