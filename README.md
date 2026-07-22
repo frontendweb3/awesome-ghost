@@ -130,6 +130,8 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 
 ### Infrastructure
 
+Internal libraries and utilities used across Ghost's ecosystem. These are not end-user tools but building blocks that power the CMS and its associated projects.
+
 - [framework](https://github.com/TryGhost/framework) - A collection of handy components for building Node.js applications.
 - [NQL](https://github.com/TryGhost/NQL) - Query language for Ghost's API.
 - [knex-migrator](https://github.com/TryGhost/knex-migrator) - Database migration CLI and library for Knex-backed Node.js projects.
