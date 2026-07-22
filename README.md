@@ -1,31 +1,34 @@
-# Awesome Ghost[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Ghost [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resources, themes, tools, integrations, starter projects, tutorials, and developer resources for **Ghost CMS**.
+> A community-maintained list of themes, tools, integrations, and learning resources for [Ghost](https://ghost.org), the open-source publishing platform.
 
-The goal of this repository is to help **publishers, developers, designers, and creators** discover the best resources in the Ghost ecosystem. Instead of searching through blogs, forums, and GitHub repositories, you'll find the most useful resources organized into carefully curated categories.
+Whether you are launching a publication, building a custom theme, or running Ghost in production, start here to find the right next link.
+
+## Start here
+
+- [New to Ghost](#official-resources) — official docs, support, and source projects.
+- [Choosing a look](#themes) — official, free, premium, and starter themes.
+- [Building with Ghost](#headless-ghost) — APIs, headless starters, SDKs, and developer tools.
+- [Running a publication](#publishing--marketing) — memberships, newsletters, SEO, analytics, and operations.
+
+## Contents
+
+- [Official Resources](#official-resources)
+  - [TryGhost GitHub Repositories](#tryghost-github-repositories)
+- [Themes](#themes)
+- [Headless Ghost](#headless-ghost)
+- [Developer Resources](#developer-resources)
+- [Publishing & Marketing](#publishing--marketing)
+- [Infrastructure & Operations](#infrastructure--operations)
+- [Learning Resources](#learning-resources)
+- [Community](#community)
+- [Integrations](#integrations)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-# Contents
-
-- [Awesome Ghost](#awesome-ghost)
-  - [Contents](#contents)
-  - [Official Resources](#official-resources)
-    - [TryGhost GitHub Repositories](#tryghost-github-repositories)
-  - [Themes](#themes)
-  - [Headless Ghost](#headless-ghost)
-  - [Developer Resources](#developer-resources)
-  - [Publishing & Marketing](#publishing--marketing)
-  - [Infrastructure & Operations](#infrastructure--operations)
-  - [Learning Resources](#learning-resources)
-  - [Community](#community)
-  - [Integrations](#integrations)
-  - [Contributing](#contributing)
-  - [License](#license)
-
----
-
-# Official Resources
+## Official Resources
 
 These are the official resources maintained by the Ghost Foundation.
 
@@ -39,7 +42,7 @@ These are the official resources maintained by the Ghost Foundation.
 - [Ghost API Documentation](https://docs.ghost.org/content-api/) - Content API and Admin API reference.
 - [Ghost Tutorials](https://ghost.org/tutorials/) - Official step-by-step tutorials.
 
-## TryGhost GitHub Repositories
+### TryGhost GitHub Repositories
 
 Source repositories from the [TryGhost GitHub organization](https://github.com/orgs/TryGhost/repositories?type=source).
 
@@ -125,7 +128,7 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [hall-monitor](https://github.com/TryGhost/hall-monitor) - CLI tool that monitors Discourse forums for open-source projects.
 - [home-assistant](https://github.com/TryGhost/home-assistant) - Home Assistant integration for Ghost.
 
-### Infrastructure ====
+### Infrastructure
 
 - [framework](https://github.com/TryGhost/framework) - A collection of handy components for building Node.js applications.
 - [NQL](https://github.com/TryGhost/NQL) - Query language for Ghost's API.
@@ -143,11 +146,11 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 
 ---
 
-# Themes
+## Themes
 
 Themes define the appearance and user experience of a Ghost website.
 
-## Official Themes
+### Official Themes
 
 Themes maintained by the Ghost team. These are the reference implementations and generally follow the latest Ghost best practices.
 
@@ -172,7 +175,7 @@ Themes maintained by the Ghost team. These are the reference implementations and
 
 Source code available in the [TryGhost/Themes](https://github.com/TryGhost/Themes/tree/main/packages) monorepo.
 
-## Free Themes
+### Free Themes
 
 Community-maintained themes available at no cost.
 
@@ -193,7 +196,7 @@ Community-maintained themes available at no cost.
 - [Kusi Doc](https://github.com/godofredoninja/kusi-doc) - Beautiful documentation theme from the author of Simply.
 - [Scriptor](https://github.com/JustGoodThemes/Scriptor-Ghost-Theme) - Minimal, clean, modern theme for writers.
 
-## Premium Themes
+### Premium Themes
 
 Commercial themes with advanced functionality and professional support.
 
@@ -220,7 +223,7 @@ Commercial themes with advanced functionality and professional support.
 - [Fueko](https://fueko.net/) - Premium editorial and magazine themes.
 - [Pina Themes](https://pinathemes.com/) - Minimal design-focused premium themes.
 
-## Starter Themes
+### Starter Themes
 
 Starter themes intended for developers to build upon.
 
@@ -231,7 +234,7 @@ Starter themes intended for developers to build upon.
 - [Strapped](https://github.com/carlitoplatanito/strapped-ghost-theme) - Bootstrap 5 starter theme for Ghost.
 - [Ghost Skeleton](https://github.com/JMKelley/ghost-skeleton) - Bare bones starter theme for Ghost.
 
-## Portfolio Themes
+### Portfolio Themes
 
 Themes designed for portfolios and personal branding.
 
@@ -240,13 +243,13 @@ Themes designed for portfolios and personal branding.
 - [Beirut](https://aspirethemes.com/themes/beirut) - Minimalist creative portfolio with image lightbox gallery.
 - [Caards](https://themelib.org/themes/caards/) - Creative portfolio for studios and freelancers with dark mode and multilingual support.
 
-## Magazine Themes
+### Magazine Themes
 
 Themes optimized for news and editorial websites.
 
 - [Breeze](https://themes.supply/themes/breeze/) - Modern newsroom theme with hero layouts and AVIF/WebP support.
 
-## Newsletter Themes
+### Newsletter Themes
 
 Themes designed for newsletter-first publications.
 
@@ -254,7 +257,7 @@ Themes designed for newsletter-first publications.
 - [Moshi](https://aspirethemes.com/themes/moshi) - Modern newsletter theme with customizable signup and multi-language support.
 - [Substation](https://codelet.co/themes/substation/) - Substack-like newsletter-first theme with subscription box and archive.
 
-## Business Themes
+### Business Themes
 
 Themes for companies, agencies, startups, and SaaS websites.
 
@@ -265,11 +268,11 @@ Themes for companies, agencies, startups, and SaaS websites.
 
 ---
 
-# Headless Ghost
+## Headless Ghost
 
 Ghost can be used as a headless CMS with any frontend framework.
 
-## Starter Projects
+### Starter Projects
 
 Ready-to-use repositories demonstrating common project structures.
 
@@ -283,47 +286,47 @@ Ready-to-use repositories demonstrating common project structures.
 - [gatsby-ghost-balsa-starter](https://github.com/draftbox-co/gatsby-ghost-balsa-starter) - Lightweight Gatsby starter for Ghost CMS.
 - [nextjs-blog-starter-typescript-ghost](https://github.com/fission-codes/nextjs-blog-starter-typescript-ghost) - Next.js TypeScript blog starter with Ghost API.
 
-## Framework Integrations
+### Framework Integrations
 
 Resources for integrating Ghost with modern frontend frameworks.
 
-### Next.js
+#### Next.js
 
 - [Next.js + Ghost Guide](https://docs.ghost.org/jamstack/next) - Official Ghost documentation for working with Next.js.
 
-### Astro
+#### Astro
 
 - [ghostcms-loader](https://github.com/MatthiesenXYZ/ghostcms-loader) - Astro Content Layer loader for Ghost CMS.
 - [astro-ghostcms](https://github.com/MatthiesenXYZ/astro-ghostcms) - Astro integration that turns Ghost into a headless CMS.
 - [Astro + Ghost Guide](https://docs.astro.build/en/guides/cms/ghost) - Official Astro documentation for Ghost CMS integration.
 
-### Nuxt
+#### Nuxt
 
 - [nuxt-ghost](https://github.com/Gomah/nuxt-ghost) - Easy Ghost Content API integration module for Nuxt.js.
 - [Nuxt + Ghost Guide](https://docs.ghost.org/jamstack/nuxt) - Official Ghost documentation for working with Nuxt.
 
-### SvelteKit
+#### SvelteKit
 
-### Gatsby
+#### Gatsby
 
 - [Gatsby + Ghost Guide](https://docs.ghost.org/jamstack/gatsby) - Official Ghost documentation for Gatsby integration.
 
-### Remix
+#### Remix
 
 ---
 
-# Developer Resources
+## Developer Resources
 
 Everything required to build applications, themes, and integrations for Ghost.
 
-## Ghost APIs
+### Ghost APIs
 
 - [Admin API](https://docs.ghost.org/admin-api/) - Authenticated API for managing all Ghost resources.
 - [Webhooks](https://docs.ghost.org/webhooks/) - Event-driven integrations triggered by Ghost actions.
 
-## SDKs & Libraries
+### SDKs & Libraries
 
-### JavaScript / TypeScript
+#### JavaScript / TypeScript
 
 - [@tryghost/content-api](https://www.npmjs.com/package/@tryghost/content-api) - Official JS Content API client.
 - [@tryghost/admin-api](https://www.npmjs.com/package/@tryghost/admin-api) - Official JS Admin API client (server-side only).
@@ -331,30 +334,30 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [@tryghost/string](https://www.npmjs.com/package/@tryghost/string) - Official string utilities for slugify and more.
 - [@ts-ghost/content-api](https://www.npmjs.com/package/@ts-ghost/content-api) - Strongly-typed TypeScript client based on Zod.
 
-### Python
+#### Python
 
 - [edwh-ghost](https://pypi.org/project/edwh-ghost/) - Python client for Ghost API v3-v6 (Admin + Content).
 - [pyghost](https://pypi.org/project/pyghost/) - Type-safe Python client with enums for all Ghost resources.
 - [ghost-cms-mcp](https://pypi.org/project/ghost-cms-mcp/) - MCP server for Ghost CMS in Python.
 
-### PHP
+#### PHP
 
 - [davaxi/ghost](https://packagist.org/packages/davaxi/ghost) - PHP client library for Ghost >=5.0 APIs.
 - [igorsgm/laravel-ghost](https://packagist.org/packages/igorsgm/laravel-ghost) - Laravel package for Ghost API integration.
 
-### Go
+#### Go
 
 - [sklinkert/ghost](https://github.com/sklinkert/ghost) - Go client for Ghost Content and Admin APIs.
 
-### Rust
+#### Rust
 
 - [ghost-io-api](https://docs.rs/ghost-io-api/latest/ghost_io_api) - Strongly-typed async Rust client for Ghost APIs.
 
-### Ruby
+#### Ruby
 
 - [haunted](https://github.com/DanaHolt/haunted) - Ruby gem for Ghost CMS Content API.
 
-## Developer Tools
+### Developer Tools
 
 - [Ghost Theme Builder (GTB)](https://github.com/royalfig/ghost-theme-dev) - Build framework with esbuild, live reload, CSS hot injection, and image optimization.
 - [Ghost Studio](https://github.com/XED-dev/Studio) - AI-agent-first Ghost theme factory with CLI and YAML presets.
@@ -362,7 +365,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [ghost-myrtle](https://github.com/betschki/ghost-myrtle) - CLI for generating demo content for Ghost themes.
 - [ghost-ipfs](https://github.com/alexbakers/ghost-ipfs) - IPFS storage adapter for Ghost.
 
-## CLI Tools
+### CLI Tools
 
 - [ghst](https://github.com/JohnONolan/ghst) - Official modern Ghost CLI with Admin API CRUD, MCP server mode, and migration tools.
 - [gho](https://github.com/mtane0412/ghocli) - Fast Go CLI for Ghost Admin API with multiple site aliases.
@@ -372,11 +375,11 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [cli-ghost](https://github.com/lukeslp/cli-ghost) - Single-file Python CLI with multiple site profiles.
 - [Ghost Admin CLI & Skill](https://github.com/nixihz/ghost-admin-skill) - npx-installable CLI with full CRUD for all Ghost resources.
 
-## Editors & IDE Extensions
+### Editors & IDE Extensions
 
 - [Official Ghost VS Code Extension](https://marketplace.visualstudio.com/items?itemName=TryGhost.ghost) - Official extension with autocomplete, hover-to-learn docs, and gscan integration.
 
-## Theme Development
+### Theme Development
 
 - [Official Theme Docs](https://docs.ghost.org/themes) - Complete documentation for building Ghost themes.
 - [Essential Concepts Video](https://www.youtube.com/watch?v=qKpXkJdt428) - Walkthrough of Handlebars, theme structure, and contexts.
@@ -385,7 +388,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [Ghost Local Dev Workflow](https://stackingjones.com/ghost-local-dev-workflow/) - Practical symlink-based local development workflow.
 - [Docker + Livereload Theme Dev](https://nick.recoil.org/articles/ghost-development-setup/) - Docker-based Ghost dev with Gulp live reload.
 
-## Handlebars Helpers
+### Handlebars Helpers
 
 - [Official Helpers Documentation](https://docs.ghost.org/themes/helpers) - Complete reference for all Ghost Handlebars helpers.
 - [Functional Helpers](https://docs.ghost.org/themes/helpers/functional) - `get`, `foreach`, `if`, `has`, `is`, `match`, `pagination`, `prev_post`, `next_post`, `reading_time`, `img_url`, and more.
@@ -394,7 +397,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [Custom Handlebars Helpers Guide](https://bednars.me/en/articles/make-custom-handlebar-helpers-in-ghost) - How to create custom Handlebars helpers in Ghost.
 - [Adding a Custom Helper Tutorial](https://www.benjaminrancourt.ca/how-to-add-a-custom-handlebars-helper-to-ghost) - Step-by-step guide for creating custom helpers.
 
-## Custom Integrations
+### Custom Integrations
 
 - [Make (Integromat) Integration](https://www.make.com/en/integrations/ghost) - Visual automation platform with Ghost connector.
 - [n8n Integration](https://n8n.io/integrations/ghost/) - Open-source workflow automation with native Ghost node.
@@ -403,11 +406,11 @@ Everything required to build applications, themes, and integrations for Ghost.
 
 ---
 
-# Publishing & Marketing
+## Publishing & Marketing
 
 Resources that help creators publish, grow, and monetize content.
 
-## Membership
+### Membership
 
 - [Ghost Memberships](https://docs.ghost.org/members) - Native membership system with free/paid tiers and Stripe integration.
 - [Member Management](https://ghost.org/help/member-management/) - Admin dashboard for filtering, bulk actions, and member profiles.
@@ -415,7 +418,7 @@ Resources that help creators publish, grow, and monetize content.
 - [ChartMogul](https://chartmogul.com/) - Subscription analytics for Ghost membership businesses.
 - [Membership Setup Guide](https://themex.studio/guides/how-to-set-up-ghost-membership/) - Strategy guide for offers, pricing, and access rules.
 
-## Newsletters
+### Newsletters
 
 - [Ghost Newsletter System](https://docs.ghost.org/newsletters) - Built-in newsletter sending with multiple newsletter support.
 - [Email Design Guide](https://ghost.org/help/email-design/) - Full email design customization for newsletters.
@@ -425,7 +428,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Ghosler](https://github.com/ItzNotABug/ghosler) - Send newsletters using your own email credentials.
 - [Auto Newsletter Listmonk](https://github.com/chaddyc/auto-newsletter-listmonk) - Autonomous newsletter builder for Listmonk and Ghost.
 
-## Email Providers
+### Email Providers
 
 - [Mailgun](https://www.mailgun.com/) - Ghost's native bulk email provider for newsletters.
 - [Amazon SES](https://aws.amazon.com/ses/) - Low-cost transactional email via SMTP.
@@ -435,14 +438,14 @@ Resources that help creators publish, grow, and monetize content.
 - [mailgun-ses-proxy](https://github.com/jcastro/mailgun-ses-proxy) - Send newsletters via SES with Ghost's native workflow.
 - [ghost-cms-amazon-ses-adapter](https://github.com/exlab-code/ghost-cms-amazon-ses-adapter) - Patch Ghost's Mailgun calls to route through SES.
 
-## SEO
+### SEO
 
 - [Ghost Native SEO](https://ghost.org/help/seo/) - Built-in XML sitemaps, canonical URLs, JSON-LD, Open Graph, and Twitter Cards.
 - [GEO (Generative Engine Optimization)](https://ghost.org/changelog/geo/) - Ghost 6.0+ built-in llms.txt and Markdown versions for AI crawlers.
 - [Ghost SEO Guide 2026](https://seocontentai.com/ghost-seo/) - Core Web Vitals, GEO, internal linking, and WebP optimization.
 - [Sorank](https://www.sorank.com/cms-optimisation-geo-seo/ghost) - GEO/SEO platform for Ghost with structured data and entity optimization.
 
-## Analytics
+### Analytics
 
 - [Ghost Native Analytics](https://ghost.org/help/native-analytics/) - Built-in cookie-free first-party analytics (Ghost 6.0+).
 - [Plausible](https://plausible.io/docs/ghost-integration) - Privacy-focused cookie-free analytics. Open-source and self-hostable.
@@ -451,7 +454,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Umami](https://umami.is/) - Free open-source self-hosted analytics.
 - [GoatCounter](https://www.goatcounter.com/) - Free open-source analytics without cookies.
 
-## Search
+### Search
 
 - [Ghost Native Search](https://docs.ghost.org/themes/search) - Built-in search indexing titles, tags, and excerpts.
 - [Ghost-Meilisearch](https://github.com/MFYDev/ghost-meilisearch) - Full-text search with sub-50ms results, typo tolerance, and AI semantic search.
@@ -460,7 +463,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Fuse.js for Ghost](https://brightthemes.com/blog/ghost-search-fusejs) - Client-side fuzzy search using Fuse.js.
 - [Vellumine](https://vellumine.com/) - SaaS for Ghost full-text search with analytics.
 
-## Comments
+### Comments
 
 - [Ghost Native Comments](https://ghost.org/) - Built-in comments with Portal and Ghost authentication.
 - [Remarks](https://remark42.com/) - Self-hosted comment system with Go backend and JWT SSO support.
@@ -471,7 +474,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Hyvor Talk](https://talk.hyvor.com/) - Managed SaaS comment system, privacy-focused.
 - [EchoThread](https://echothread.io/) - Hosted Disqus alternative with ML spam filter.
 
-## Forms
+### Forms
 
 - [Ghost Native Signup Forms](https://docs.ghost.org/themes/members) - Custom signup forms with `data-members-form` attribute.
 - [Ghost Embeddable Signup Forms](https://ghost.org/tutorials/form/) - Embeddable forms with branding options.
@@ -480,7 +483,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Seance for Ghost](https://github.com/CorySanin/seance) - Self-hostable contact form service with reCAPTCHA support.
 - [Upscribe](https://upscribe.net/vs/ghost/) - Lead generation forms with exit-intent popups and email sequences.
 
-## AI Tools
+### AI Tools
 
 - [Specter](https://spectersync.com/ghost/) - AI workspace for bulk meta description rewriting, internal linking, and SEO fixes.
 - [Postmancer](https://chromewebstore.google.com/detail/postmancer-ai-power-too/dbjkpjaogpihmmehpilmfgnpckfahpdh) - Chrome extension adding AI sidebar to Ghost Admin.
@@ -491,11 +494,11 @@ Resources that help creators publish, grow, and monetize content.
 
 ---
 
-# Infrastructure & Operations
+## Infrastructure & Operations
 
 Resources for deploying, maintaining, and scaling Ghost.
 
-## Hosting Providers
+### Hosting Providers
 
 - [Ghost(Pro)](https://ghost.org/pricing/) - Official managed hosting by the Ghost Foundation.
 - [MagicPages](https://www.magicpages.co/) - Simple, fast, and reliable Ghost CMS web hosting.
@@ -506,7 +509,7 @@ Resources for deploying, maintaining, and scaling Ghost.
 - [Midnight](https://getmidnight.com/) - Reliable managed Ghost blog web hosting with zero setup.
 - [FirePress](https://firepress.org/) - Ghost hosting and membership websites.
 
-## Docker
+### Docker
 
 - [Official Docker Image](https://hub.docker.com/_/ghost) - Official Ghost Docker image on Docker Hub.
 - [Install Ghost With Docker](https://docs.ghost.org/install/docker) - Official guide for self-hosting Ghost using Docker Compose.
@@ -515,7 +518,7 @@ Resources for deploying, maintaining, and scaling Ghost.
 - [Render Ghost Template](https://github.com/render-examples/ghost) - Deploy Ghost on Render.
 - [Ghost Docker Nginx LetsEncrypt](https://github.com/eliarms/ghost-docker-compose-nginx-letsencrypt) - Ghost CMS with Docker, Nginx, and Let's Encrypt.
 
-## Self-Hosting
+### Self-Hosting
 
 - [Ghost CLI](https://docs.ghost.org/ghost-cli) - Official CLI for installing, updating, and managing self-hosted Ghost.
 
@@ -523,33 +526,33 @@ Resources for deploying, maintaining, and scaling Ghost.
 - [Ghost on Heroku](https://github.com/cobyism/ghost-on-heroku) - One-button Heroku deploy.
 - [Ghost on GitHub Pages](https://github.com/paladini/ghost-on-github-pages) - Build and deploy Ghost for free on GitHub Pages.
 
-## Backup & Restore
+### Backup & Restore
 
 - [Ghost CLI Backup](https://docs.ghost.org/faq/manual-backup) - Official `ghost backup` command with ZIP export.
 - [Manual Backup Guide](https://snubmonkey.com/ghost-cms-manually-backup-and-restore-self-hosting/) - Step-by-step backup and restore procedure.
 - [Ghost & MySQL Optimization](https://typetale.app/blog/article/how-to-back-up-ghost-and-optimize-mysql-database-performance) - Backup strategies plus MySQL tuning.
 
-## Performance
+### Performance
 
 - [Ghost Site Performance Guide](https://www.temperstack.com/learn/ghost/optimize-site-performance/) - Caching, image optimization, CSS/JS minification, and CDN.
 - [PageSpeed on Ghost](https://seocontentai.com/ghost-cms-pagespeed-insights-score/) - Concrete steps for LCP, CLS, and FCP optimization.
 - [Scaling Ghost CMS](https://xylentis.com/blog/scaling-ghost-cms-high-performance-multi-vps-deployment-with-automated-cloudflare-cache-purging) - Multi-VPS deployment with automated cache purging.
 - [Ghost Performance Troubleshooting](https://opsblu.com/documentation/website-platforms/ghost/troubleshooting/performance/) - Theme optimization, image optimization, database tuning.
 
-## Caching & CDN
+### Caching & CDN
 
 - [BunnyCDN + Ghost Integration](https://fanyangmeng.blog/integrate-bunny-cdn-with-ghost/) - Complete BunnyCDN setup with Perma-Cache.
 - [BunnyCDN Cache Purging Middleware](https://github.com/MFYDev/ghost-bunnycdn-cache-purging-middleware) - Auto-purge BunnyCDN on Ghost content changes.
 - [Cloudflare Worker Cache Purging](https://fanyangmeng.blog/automating-bunnycdn-cache-management-for-ghost-cms-a-cloudflare-worker-solution/) - Purge CDN cache via webhooks.
 
-## Monitoring
+### Monitoring
 
 - [Ghost Observability Stack](https://github.com/rudironsoni/Ghost/tree/main/infrastructure/k8s/observability) - Prometheus, Grafana, Jaeger for Ghost on Kubernetes.
 - [Merlonix for Ghost](https://merlonix.com/for/ghost-agencies/) - SSL, DNS, and uptime monitoring for Ghost agencies.
 - [IsDown Ghost Status](https://isdown.app/status/ghost) - Third-party Ghost(Pro) status monitoring.
 - [LoadForge Ghost Load Testing](https://loadforge.com/guides/e-commerce-cms/ghost-load-testing-performance-testing-cms-loadforge) - Load testing for Ghost with Locust scripts.
 
-## Security
+### Security
 
 - [Ghost Security Docs](https://docs.ghost.org/security) - Official security overview: bcrypt, SQLi prevention, XSS prevention, rate limiting.
 - [Ghost CMS Security Guide](https://zeriflow.com/blog/ghost-cms-security-guide) - Full hardening guide with security headers and CSP.
@@ -561,11 +564,11 @@ Resources for deploying, maintaining, and scaling Ghost.
 
 ---
 
-# Learning Resources
+## Learning Resources
 
 Educational content for learning Ghost.
 
-## Blogs
+### Blogs
 
 - [Ghost CMS Mastery](https://blog.frontendweb.agency/) - Learn Ghost CMS with tutorials and guides on this dedicated platform.
 - [Abstract27 Blog](https://abstract27.com/blog/) - Comprehensive guides on Ghost CMS features and hosting.
@@ -573,21 +576,21 @@ Educational content for learning Ghost.
 - [ElectronThemes Blog](https://electronthemes.com/blog/) - Theme showcases, case studies, and monetization strategies.
 - [Ekto Themes Blog](https://ektothemes.com/blog/) - Ghost CMS reviews, guides, and newsletter breakdowns.
 
-## Tutorials
+### Tutorials
 
 - [Hostinger Ghost Tutorial](https://www.hostinger.com/ph/tutorials/ghost-tutorial) - Complete guide from install to customization.
 - [Ghost Developer Docs](https://docs.ghost.org/) - Official developer documentation.
 
-## Courses
+### Courses
 
 - [Self-Hosting Ghost](https://courses.daveswift.com/product/self-host-ghost/) - Step-by-step course on deploying Ghost on your own server.
 - [Ghost CMS on Udemy](https://www.udemy.com/course/ghost-cms/) - Video course covering Ghost CMS fundamentals.
 
-## Books
+### Books
 
 - [The Indie Publisher's Guide](https://miyus.labs.enova.studio/content/files/2026/04/The-Indie-Publisher-s-Guide.pdf) - Free PDF ebook on building, publishing, and growing with Ghost.
 
-## Videos
+### Videos
 
 - [Ghost.org Complete Tutorial](https://www.youtube.com/watch?v=jhT8kml-kzA) - 3+ hour full tutorial on starting a blog with Ghost.
 - [Ghost Website Tutorial For Beginners](https://www.youtube.com/watch?v=Bt0tXGW91ZI) - Complete beginner walkthrough.
@@ -595,19 +598,19 @@ Educational content for learning Ghost.
 - [10 Ways Ghost Beats WordPress](https://www.youtube.com/watch?v=YFr_4NNc-S0) - Feature comparison video.
 - [Ghost CMS Website Customization Playlist](https://www.youtube.com/playlist?list=PLhzCI_QTzRrO7wcTqeljpm5nAF91ECRcK) - Theme customization and performance optimization.
 
-## YouTube Channels
+### YouTube Channels
 
 - [Dave Swift](https://www.youtube.com/@DaveSwift) - Ghost CMS migration, comparison, and configuration videos.
 - [David Utke](https://www.youtube.com/@DavidUtke) - Full Ghost.org tutorials and website building guides.
 - [Nick Borodenko](https://www.youtube.com/@NickBorodenko) - Ghost CMS deployment on Google Cloud tutorials.
 
-## Showcase
+### Showcase
 
 - [AspireThemes Showcase](https://aspirethemes.com/showcase) - 180+ real Ghost sites organized by theme.
 - [Bright Themes Showcase](https://brightthemes.com/showcase) - Curated showcase of premium Ghost sites.
 - [Colorlib Ghost Examples](https://colorlib.com/wp/ghost-website-and-blog-examples/) - 22 best Ghost website and blog examples.
 
-## Case Studies
+### Case Studies
 
 - [30 Successful Ghost Websites](https://electronthemes.com/blog/case-study-top-30-successful-ghost-websites) - Brands using Ghost: Unsplash, Cloudflare, Duolingo, Buffer, Airtable.
 - [Ghost(Pro) Migration Case Studies](https://ghost.org/move-to-ghost) - Official testimonials from publishers who migrated.
@@ -616,7 +619,7 @@ Educational content for learning Ghost.
 
 ---
 
-# Community
+## Community
 
 Places where the Ghost community gathers.
 
@@ -628,11 +631,11 @@ Places where the Ghost community gathers.
 
 ---
 
-# Integrations
+## Integrations
 
 Official integrations from the [Ghost integrations directory](https://ghost.org/integrations/).
 
-## Analytics
+### Analytics
 
 - [Tinybird](https://ghost.org/integrations/tinybird/) - Real-time cookie-free analytics backend for Ghost.
 - [Plausible](https://ghost.org/integrations/plausible/) - Privacy-focused cookie-free analytics.
@@ -647,13 +650,13 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Geckoboard](https://ghost.org/integrations/geckoboard/) - Real-time dashboard for key metrics.
 - [Segment](https://ghost.org/integrations/segment/) - Customer data platform for event tracking.
 
-## Automation
+### Automation
 
 - [Zapier](https://ghost.org/integrations/zapier/) - Connect Ghost to 5,000+ apps via no-code automation.
 - [Pipedream](https://ghost.org/integrations/pipedream/) - Connect APIs, remarkably fast.
 - [Custom Integrations](https://ghost.org/integrations/custom-integrations/) - Build your own with Ghost's Admin API.
 
-## Members & Payments
+### Members & Payments
 
 - [Stripe](https://ghost.org/integrations/stripe/) - Payment processing for membership subscriptions.
 - [PayPal](https://ghost.org/integrations/paypal/) - Alternative payment gateway for memberships.
@@ -663,7 +666,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Churnbuster](https://ghost.org/integrations/churnbuster/) - Save canceled subscriptions with automated recovery.
 - [Circle](https://ghost.org/integrations/circle/) - Community platform for members.
 
-## Community & Social
+### Community & Social
 
 - [Discord](https://ghost.org/integrations/discord/) - Community chat platform integration.
 - [Discourse](https://ghost.org/integrations/discourse/) - Open-source forum software.
@@ -677,7 +680,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Twitch](https://ghost.org/integrations/twitch/) - Live streaming integration.
 - [SlideShare](https://ghost.org/integrations/slideshare/) - Presentation sharing.
 
-## Content & Writing
+### Content & Writing
 
 - [iA Writer](https://ghost.org/integrations/ia-writer/) - Distraction-free writing app with direct publish to Ghost.
 - [Ulysses](https://ghost.org/integrations/ulysses/) - Powerful writing app for Mac and iOS.
@@ -689,7 +692,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Ghost Bookmarker](https://ghost.org/integrations/bookmarker/) - Chrome extension to bookmark content to Ghost.
 - [Feedly](https://ghost.org/integrations/feedly/) - RSS reader and content curation.
 
-## Email & Marketing
+### Email & Marketing
 
 - [Mailchimp](https://ghost.org/integrations/mailchimp/) - Email marketing platform.
 - [ConvertKit](https://ghost.org/integrations/convertkit/) - Email marketing for creators.
@@ -703,7 +706,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Intercom](https://ghost.org/integrations/intercom/) - Customer communication platform.
 - [Help Scout](https://ghost.org/integrations/helpscout/) - Customer support platform.
 
-## Storage & Media
+### Storage & Media
 
 - [Amazon S3](https://ghost.org/integrations/amazon-s3/) - Cloud storage for images and assets.
 - [Azure Storage](https://ghost.org/integrations/azure-storage/) - Microsoft cloud storage.
@@ -713,7 +716,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Imgur](https://ghost.org/integrations/imgur/) - Image hosting service.
 - [Unsplash](https://ghost.org/integrations/unsplash/) - Free stock photography.
 
-## Surveys & Forms
+### Surveys & Forms
 
 - [Tally](https://ghost.org/integrations/tally/) - Free form builder.
 - [Typeform](https://ghost.org/integrations/typeform/) - Beautiful form and survey builder.
@@ -723,34 +726,34 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Formspree](https://ghost.org/integrations/formspree/) - Form backend service.
 - [Wufoo](https://ghost.org/integrations/wufoo/) - Online form builder.
 
-## E-commerce
+### E-commerce
 
 - [Shopify](https://ghost.org/integrations/shopify/) - E-commerce platform integration.
 - [BigCommerce](https://ghost.org/integrations/bigcommerce/) - E-commerce platform.
 - [Snipcart](https://ghost.org/integrations/snipcart/) - Shopping cart for static sites.
 - [X-Cart](https://ghost.org/integrations/x-cart/) - E-commerce platform.
 
-## Podcast
+### Podcast
 
 - [Transistor](https://ghost.org/integrations/transistor/) - Podcast hosting platform.
 - [Captivate](https://ghost.org/integrations/captivate/) - Podcast hosting and growth.
 - [Listen Notes](https://ghost.org/integrations/listen-notes/) - Podcast search engine.
 - [SoundCloud](https://ghost.org/integrations/soundcloud/) - Audio distribution platform.
 
-## SEO & Optimization
+### SEO & Optimization
 
 - [Google Search Console](https://ghost.org/integrations/google-search-console/) - Monitor search performance.
 - [VWO](https://ghost.org/integrations/vwo/) - A/B testing and conversion optimization.
 - [Weglot](https://ghost.org/integrations/weglot/) - Website translation and multilingual support.
 - [Transifex](https://ghost.org/integrations/transifex/) - Localization and translation platform.
 
-## Comments
+### Comments
 
 - [Disqus](https://ghost.org/integrations/disqus/) - Managed comment system.
 - [Cove Comments](https://ghost.org/integrations/cove-comments/) - Privacy-focused commenting.
 - [Talkyard](https://ghost.org/integrations/talkyard/) - Open-source commenting and forum.
 
-## Utility
+### Utility
 
 - [Netlify](https://ghost.org/integrations/netlify/) - Static site deployment platform.
 - [Raycast](https://ghost.org/integrations/raycast/) - macOS productivity extension for Ghost.
@@ -769,7 +772,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Google Ad Manager](https://ghost.org/integrations/google-ad-manager/) - Ad inventory management.
 - [BeyondWords](https://ghost.org/integrations/beyondwords/) - Text-to-speech audio publishing.
 
-## Embeds
+### Embeds
 
 - [CodePen](https://ghost.org/integrations/codepen/) - Embed code examples.
 - [Loom](https://ghost.org/integrations/loom/) - Video messaging embeds.
@@ -782,8 +785,8 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 
 ## Contributing
 
-Please read **CONTRIBUTING.md** before submitting a pull request.
+Suggestions and corrections are welcome. Please read the [contribution guide](CONTRIBUTING.md) before opening a pull request, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-Licensed under the **MIT License**.
+This project is licensed under the [MIT License](LICENSE).
