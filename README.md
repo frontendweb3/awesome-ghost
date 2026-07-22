@@ -310,14 +310,14 @@ Resources for integrating Ghost with modern frontend frameworks.
 - [nuxt-ghost](https://github.com/Gomah/nuxt-ghost) - Easy Ghost Content API integration module for Nuxt.js.
 - [Nuxt + Ghost Guide](https://docs.ghost.org/jamstack/nuxt) - Official Ghost documentation for working with Nuxt.
 
-#### SvelteKit
+<!-- #### SvelteKit -->
 
 #### Gatsby
 
 - [Gatsby + Ghost Guide](https://docs.ghost.org/jamstack/gatsby) - Official Ghost documentation for Gatsby integration.
 
-#### Remix
-===
+<!-- #### Remix -->
+
 ---
 
 ## Developer Resources
