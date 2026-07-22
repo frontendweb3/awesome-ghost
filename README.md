@@ -377,7 +377,6 @@ Everything required to build applications, themes, and integrations for Ghost.
 ## Editors & IDE Extensions
 
 - [Official Ghost VS Code Extension](https://marketplace.visualstudio.com/items?itemName=TryGhost.ghost) - Official extension with autocomplete, hover-to-learn docs, and gscan integration.
-- [Ghost Theme Editor](https://github.com/synapsmedia/ghost-theme-editor) - Edit theme files directly inside Ghost Admin.
 
 ## Theme Development
 
