@@ -2,16 +2,18 @@
   "$schema": "https://docs.page/schema.json",
   "name": "Awesome Ghost",
   "description": "A curated list of awesome resources, themes, tools, integrations, starter projects, tutorials, and developer resources for Ghost CMS.",
-  "sidebar": [
-    {
-      "group": "Home",
-      "pages": [
-        {
-          "title": "README",
-          "href": "/",
-          "icon": "home"
-        }
-      ]
-    }
-  ]
+  "header": {
+    "showName": true,
+    "showSearch": true,
+    "showThemeToggle": true
+  },
+  "theme": {
+    "primary": "30cf83",
+    "primaryLight": "30cf83",
+    "primaryDark": "45e0a0"
+  },
+  "social": {
+    "github": "frontendweb3/awesome-ghost",
+    "x": "frontendweb3"
+  }
 }
