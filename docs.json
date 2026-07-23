@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.page/schema.json",
-  "name": "Awesome Ghost - Frontendweb3",
+  "name": "Awesome Ghost",
   "description": "A curated list of awesome resources, themes, tools, integrations, starter projects, tutorials, and developer resources for Ghost CMS.",
   "header": {
     "showName": true,
@@ -15,5 +15,17 @@
   "social": {
     "github": "frontendweb3/awesome-ghost",
     "x": "frontendweb3"
-  }
+  },
+  "anchors": [
+    {
+      "icon": "github",
+      "title": "Give me a star",
+      "href": "https://github.com/frontendweb3/awesome-ghost"
+    },
+    {
+      "icon": "x-twitter",
+      "title": "Follow me on X",
+      "href": "https://x.com/frontendweb3"
+    }
+  ]
 }
