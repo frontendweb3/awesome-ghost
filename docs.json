@@ -5,8 +5,40 @@
   "header": {
     "showName": true,
     "showSearch": true,
-    "showThemeToggle": true
+    "showThemeToggle": true,
+    "links": [
+      {
+        "title": "Code of Conduct",
+        "href": "/code-of-conduct"
+      },
+      {
+        "title": "Contributing",
+        "href": "/contributing"
+      }
+    ]
   },
+  "sidebar": [
+    {
+      "group": "Home",
+      "pages": [
+        {
+          "title": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "title": "Contributing",
+          "href": "/contributing",
+          "icon": "code-branch"
+        },
+        {
+          "title": "Code of Conduct",
+          "href": "/code-of-conduct",
+          "icon": "scale-balanced"
+        }
+      ]
+    }
+  ],
   "favicon": "/docs/assets/awesome-ghost.png",
   "theme": {
     "primary": "30cf83",
