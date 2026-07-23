@@ -8,6 +8,11 @@ Whether you are launching a publication, building a custom theme, or running Gho
 
 - [Official Resources](#official-resources)
   - [TryGhost GitHub Repositories](#tryghost-github-repositories)
+  - [Core](#core)
+  - [Themes](#themes-1)
+  - [SDKs & Libraries](#sdks--libraries)
+  - [Tools](#tools)
+  - [Infrastructure](#infrastructure)
 - [Themes](#themes)
 - [Headless Ghost](#headless-ghost)
 - [Developer Resources](#developer-resources)
@@ -38,7 +43,9 @@ These are the official resources maintained by the Ghost Foundation.
 
 Source repositories from the [TryGhost GitHub organization](https://github.com/orgs/TryGhost/repositories?type=source).
 
-#### Core
+### Core
+
+Core Ghost CMS repositories and foundational libraries.
 
 - [Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
 - [Ghost-CLI](https://github.com/TryGhost/Ghost-CLI) - CLI tool for installing and updating Ghost.
@@ -54,7 +61,9 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [ActivityPub](https://github.com/TryGhost/ActivityPub) - A full-featured ActivityPub server for networked publishing with Ghost.
 - [TrafficAnalytics](https://github.com/TryGhost/TrafficAnalytics) - Analytics Service that sits between Ghost and Tinybird for native web analytics.
 
-#### Themes
+### Themes
+
+Official and community themes maintained in the TryGhost organization.
 
 - [Source](https://github.com/TryGhost/Source) - The default theme for Ghost.
 - [Casper](https://github.com/TryGhost/Casper) - A classic theme for Ghost.
@@ -87,7 +96,9 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [Publishing](https://github.com/TryGhost/Publishing) - Components for the Ghost publishing platform.
 - [Source-ActivityPub](https://github.com/TryGhost/Source-ActivityPub) - Customized Source theme for the ActivityPub site.
 
-#### SDKs & Libraries
+### SDKs & Libraries
+
+SDKs and client libraries for interacting with Ghost APIs.
 
 - [SDK](https://github.com/TryGhost/SDK) - Tools for working with Ghost's APIs.
 - [api-demos](https://github.com/TryGhost/api-demos) - Demo scripts for using Ghost's Admin and Content APIs.
@@ -96,7 +107,9 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [eleventy-starter-ghost](https://github.com/TryGhost/eleventy-starter-ghost) - A starter template for Ghost & Eleventy.
 - [eleventy-plugin-ghost](https://github.com/daviddarnes/eleventy-plugin-ghost) - Access Ghost API in Eleventy.
 
-#### Tools
+### Tools
+
+Developer tools and utilities for working with Ghost.
 
 - [gscan](https://github.com/TryGhost/gscan) - Ghost theme scanner - checks for errors and feature support.
 - [gscan-web](https://github.com/TryGhost/gscan-web) - Web app for GScan.
@@ -120,7 +133,7 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [hall-monitor](https://github.com/TryGhost/hall-monitor) - CLI tool that monitors Discourse forums for open-source projects.
 - [home-assistant](https://github.com/TryGhost/home-assistant) - Home Assistant integration for Ghost.
 
-#### Infrastructure
+### Infrastructure
 
 Internal libraries and utilities used across Ghost's ecosystem. These are not end-user tools but building blocks that power the CMS and its associated projects.
 
@@ -208,6 +221,8 @@ Commercial themes with advanced functionality and professional support.
 - [Enova](https://enova.studio/themes/enova/) - Magazine-shaped theme for lifestyle/business publications with 4 homepage layouts.
 
 ### Theme Shops
+
+Marketplaces and stores where you can browse and purchase Ghost themes.
 
 - [Ghost Marketplace](https://ghost.org/themes/) - Official marketplace for free and premium themes.
 - [Bright Themes](https://brightthemes.com/) - Premium Ghost themes with bundle pricing.
