@@ -5,17 +5,7 @@
   "header": {
     "showName": true,
     "showSearch": true,
-    "showThemeToggle": true,
-    "links": [
-      {
-        "title": "Code of Conduct",
-        "href": "/code-of-conduct"
-      },
-      {
-        "title": "Contributing",
-        "href": "/contributing"
-      }
-    ]
+    "showThemeToggle": true
   },
   "sidebar": [
     {
