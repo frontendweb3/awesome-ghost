@@ -773,5 +773,3 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 ## Contributing
 
 Suggestions and corrections are welcome. Please read the [contribution guide](CONTRIBUTING.md) before opening a pull request, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-
