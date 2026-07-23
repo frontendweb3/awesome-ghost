@@ -1,15 +1,8 @@
 # Awesome Ghost [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A community-maintained list of themes, tools, integrations, and learning resources for [Ghost](https://ghost.org), the open-source publishing platform.
+> A community-maintained list of themes, tools, integrations, and learning resources for Ghost CMS, the open-source publishing platform.
 
 Whether you are launching a publication, building a custom theme, or running Ghost in production, start here to find the right next link.
-
-## Start here
-
-- [New to Ghost](#official-resources) — official docs, support, and source projects.
-- [Choosing a look](#themes) — official, free, premium, and starter themes.
-- [Building with Ghost](#headless-ghost) — APIs, headless starters, SDKs, and developer tools.
-- [Running a publication](#publishing--marketing) — memberships, newsletters, SEO, analytics, and operations.
 
 ## Contents
 
@@ -20,11 +13,10 @@ Whether you are launching a publication, building a custom theme, or running Gho
 - [Developer Resources](#developer-resources)
 - [Publishing & Marketing](#publishing--marketing)
 - [Infrastructure & Operations](#infrastructure--operations)
+- [Migrate to Ghost](#migrate-to-ghost)
 - [Learning Resources](#learning-resources)
 - [Community](#community)
 - [Integrations](#integrations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -37,7 +29,7 @@ These are the official resources maintained by the Ghost Foundation.
 - [Ghost Resources](https://ghost.org/resources) - A library of resources to help you share content, grow your audience, and build an independent subscription business.
 - [GitHub Organization](https://github.com/TryGhost) - Source code and releases for all Ghost projects.
 - [Ghost Changelog](https://ghost.org/changelog) - Product updates and new feature announcements.
-- [Ghost Forum](https://forum.ghost.org) - Official community forum for support and discussion.
+- [Ghost Forum](https://forum.ghost.org) - Official community forum for discussions and support.
 - [Ghost Status](https://status.ghost.org) - Ghost(Pro) service status page.
 - [Ghost API Documentation](https://docs.ghost.org/content-api/) - Content API and Admin API reference.
 - [Ghost Tutorials](https://ghost.org/tutorials/) - Official step-by-step tutorials.
@@ -46,7 +38,7 @@ These are the official resources maintained by the Ghost Foundation.
 
 Source repositories from the [TryGhost GitHub organization](https://github.com/orgs/TryGhost/repositories?type=source).
 
-### Core
+#### Core
 
 - [Ghost](https://github.com/TryGhost/Ghost) - Independent technology for modern publishing, memberships, subscriptions and newsletters.
 - [Ghost-CLI](https://github.com/TryGhost/Ghost-CLI) - CLI tool for installing and updating Ghost.
@@ -55,14 +47,14 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [Admin](https://github.com/TryGhost/Admin) - Ghost's admin client.
 - [Ghost-Editor](https://github.com/TryGhost/Ghost-Editor) - Ghost's Mobiledoc Editor.
 - [Koenig](https://github.com/TryGhost/Koenig) - Components of Ghost's Editor.
-- [Portal](https://github.com/TryGhost/Portal) - Drop-in script to add membership features in a Ghost theme. _
-- [Members](https://github.com/TryGhost/Members) - Membership functionality. _
+- [Portal](https://github.com/TryGhost/Portal) - Drop-in script to add membership features in a Ghost theme.
+- [Members](https://github.com/TryGhost/Members) - Membership functionality.
 - [comments-ui](https://github.com/TryGhost/comments-ui) - Drop-in script for comments in Ghost.
 - [sodo-search](https://github.com/TryGhost/sodo-search) - Drop-in script for search in Ghost.
 - [ActivityPub](https://github.com/TryGhost/ActivityPub) - A full-featured ActivityPub server for networked publishing with Ghost.
 - [TrafficAnalytics](https://github.com/TryGhost/TrafficAnalytics) - Analytics Service that sits between Ghost and Tinybird for native web analytics.
 
-### Themes
+#### Themes
 
 - [Source](https://github.com/TryGhost/Source) - The default theme for Ghost.
 - [Casper](https://github.com/TryGhost/Casper) - A classic theme for Ghost.
@@ -92,10 +84,10 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [Argon](https://github.com/TryGhost/Argon) - A simple publishing theme for Ghost.
 - [Tribeca](https://github.com/TryGhost/Tribeca) - A free theme for Ghost.
 - [Zap](https://github.com/TryGhost/Zap) - An ultra-minimal Ghost theme.
-- [Publishing](https://github.com/TryGhost/Publishing) - Publishing components.
+- [Publishing](https://github.com/TryGhost/Publishing) - Components for the Ghost publishing platform.
 - [Source-ActivityPub](https://github.com/TryGhost/Source-ActivityPub) - Customized Source theme for the ActivityPub site.
 
-### SDKs & Libraries
+#### SDKs & Libraries
 
 - [SDK](https://github.com/TryGhost/SDK) - Tools for working with Ghost's APIs.
 - [api-demos](https://github.com/TryGhost/api-demos) - Demo scripts for using Ghost's Admin and Content APIs.
@@ -104,7 +96,7 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [eleventy-starter-ghost](https://github.com/TryGhost/eleventy-starter-ghost) - A starter template for Ghost & Eleventy.
 - [eleventy-plugin-ghost](https://github.com/daviddarnes/eleventy-plugin-ghost) - Access Ghost API in Eleventy.
 
-### Tools
+#### Tools
 
 - [gscan](https://github.com/TryGhost/gscan) - Ghost theme scanner - checks for errors and feature support.
 - [gscan-web](https://github.com/TryGhost/gscan-web) - Web app for GScan.
@@ -119,16 +111,16 @@ Source repositories from the [TryGhost GitHub organization](https://github.com/o
 - [action-update-posts](https://github.com/TryGhost/action-update-posts) - GitHub Action that makes scheduled updates to Ghost posts.
 - [action-ghost-release](https://github.com/TryGhost/action-ghost-release) - GitHub Action to release Ghost.
 - [Actions](https://github.com/TryGhost/Actions) - Reusable GitHub Actions and workflow templates.
-- [Zapier](https://github.com/TryGhost/Zapier) - Zapier integration for Ghost.
-- [algolia](https://github.com/TryGhost/algolia) - Algolia search integration tools.
+- [Zapier](https://github.com/TryGhost/Zapier) - Integrate your Ghost — triggers, creates, and searches utilizing the Ghost Admin API (Zapier CLI app).
+- [algolia](https://github.com/TryGhost/algolia) - Search integration tools for Algolia.
 - [wp-ghost-exporter](https://github.com/TryGhost/wp-ghost-exporter) - WordPress plugin to export content to Ghost.
 - [ghost-docs-raycast](https://github.com/TryGhost/ghost-docs-raycast) - Raycast extension for Ghost docs.
 - [video-convertor](https://github.com/TryGhost/video-convertor) - Video conversion tool.
-- [vscode](https://github.com/TryGhost/vscode) - VS Code extension for Ghost.
+- [VSCode](https://github.com/TryGhost/vscode) - VS Code extension for Ghost.
 - [hall-monitor](https://github.com/TryGhost/hall-monitor) - CLI tool that monitors Discourse forums for open-source projects.
 - [home-assistant](https://github.com/TryGhost/home-assistant) - Home Assistant integration for Ghost.
 
-### Infrastructure
+#### Infrastructure
 
 Internal libraries and utilities used across Ghost's ecosystem. These are not end-user tools but building blocks that power the CMS and its associated projects.
 
@@ -182,7 +174,7 @@ Source code available in the [TryGhost/Themes](https://github.com/TryGhost/Theme
 Community-maintained themes available at no cost.
 
 - [Fastest](https://github.com/frontendweb3/fastest) - The fastest is a lightweight Ghost theme that lets you create a blog with Ghost CMS in under 5 minutes.
-- [Logly](https://github.com/frontendweb3/logly) - Logly is a minimalist open-source theme designed for Ghost blogs.
+- [Logly](https://github.com/frontendweb3/logly) - A minimalist open-source theme designed for Ghost blogs.
 - [Attila](https://github.com/zutrinken/attila) - Clean, content-focused responsive theme with theme options, light/dark mode, and reading progress.
 - [Liebling](https://github.com/eddiesigner/liebling) - Beautiful clean theme with dark mode, RTL support, i18n, and membership tiers.
 - [Simply](https://github.com/godofredoninja/simply) - Medium-inspired multipurpose theme with multiple home designs and customization options.
@@ -211,7 +203,7 @@ Commercial themes with advanced functionality and professional support.
 - [Flair](https://brightthemes.com/themes/flair) - Modern sleek design for startups and company blogs with dark mode and table of contents.
 - [Auden](https://brightthemes.com/themes/auden) - Fast, lightweight magazine & membership theme with 3 homepage layouts.
 - [Brief](https://brightthemes.com/themes/brief) - Purpose-built newsletter theme with dedicated newsletters page and email format template.
-- [Tribune](https://luxethemes.com) - Newspaper-style multi-column homepage with 5 post templates and 47 languages.
+- [Tribune](https://luxethemes.com/theme/tribune) - Newspaper-style multi-column homepage with 5 post templates and 47 languages.
 - [Tozan](https://fueko.net/themes/tozan/) - Bold, modern editorial theme for magazines with membership tiers.
 - [Enova](https://enova.studio/themes/enova/) - Magazine-shaped theme for lifestyle/business publications with 4 homepage layouts.
 
@@ -280,7 +272,6 @@ Ghost can be used as a headless CMS with any frontend framework.
 
 Ready-to-use repositories demonstrating common project structures.
 
-- [ghost-theme-starter-kit]- The Ghost CMS theme starter kit is a boilerplate or template that helps you build a Ghost CMS theme with modern tools (Vite + Tailwind CSS 4).
 - [next-cms-ghost](https://github.com/styxlab/next-cms-ghost) - Popular Next.js + Ghost starter with Casper look, ISR, and dark mode.
 - [astro-starter-ghost](https://github.com/PhilDL/astro-starter-ghost) - Astro starter with View Transitions for Ghost headless.
 - [ghost-remix](https://github.com/mikan-laboratory/ghost-remix) - Full open-source project using Ghost as headless CMS with Remix.
@@ -379,7 +370,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [caspar](https://github.com/Manzanita-Research/caspar) - Friendly Ghost CLI designed for AI agents.
 - [ghostctl](https://github.com/stumpyfr/ghostctl) - Full-featured Go CLI for Content and Admin APIs with diff/sync.
 - [cli-ghost](https://github.com/lukeslp/cli-ghost) - Single-file Python CLI with multiple site profiles.
-- [Ghost Admin CLI & Skill](https://github.com/nixihz/ghost-admin-skill) - npx-installable CLI with full CRUD for all Ghost resources.
+- [Ghost Admin CLI & Skill](https://github.com/nixihz/ghost-admin-skill) - NPX-installable CLI with full CRUD for all Ghost resources.
 
 ### Editors & IDE Extensions
 
@@ -468,15 +459,14 @@ Resources that help creators publish, grow, and monetize content.
 
 ### Comments
 
-- [Ghost Native Comments](https://ghost.org/) - Built-in comments with Portal and Ghost authentication.
 - [Remarks](https://remark42.com/) - Self-hosted comment system with Go backend and JWT SSO support.
 - [Isso](https://isso-comments.de/) - Lightweight Python comment server with SQLite backend.
 - [Giscus](https://giscus.app/) - Comments backed by GitHub Discussions (free).
 - [Cusdis](https://cusdis.com/) - Lightweight self-hosted comment system.
 - [Hyvor Talk](https://talk.hyvor.com/) - Managed SaaS comment system, privacy-focused.
 - [EchoThread](https://echothread.io/) - Hosted Disqus alternative with ML spam filter.
-- [Disqus](https://disqus.com): The most popular and feature-rich third-party system, supporting social network integrations (Facebook, Google, Twitter), advanced moderation tools, and active community building.
-- [GraphComment](https://www.graphcomment.com): A robust system featuring a modern, clean interface, social login, and unique, customizable voting systems rather than standard upvotes.
+- [Disqus](https://disqus.com) - The most popular and feature-rich third-party system, supporting social network integrations (Facebook, Google, Twitter), advanced moderation tools, and active community building.
+- [GraphComment](https://www.graphcomment.com) - A robust system featuring a modern, clean interface, social login, and unique, customizable voting systems rather than standard upvotes.
 
 ### Forms
 
@@ -597,9 +587,7 @@ Educational content for learning Ghost.
 ### Tutorials
 
 - [Hostinger Ghost Tutorial](https://www.hostinger.com/ph/tutorials/ghost-tutorial) - Complete guide from install to customization.
-- [How to Build a Blog with the Ghost API and Next.js](https://docs.ghost.org/) - Official developer documentation.
 - [Build a Blog Website with Ghost API and Next.js](https://www.freecodecamp.org/news/build-a-blog-website-with-ghost-api-and-nextjs/) - freeCodeCamp guide on headless Ghost with Next.js.
-- [How to Build a Ghost CMS Theme](https://www.freecodecamp.org/news/how-to-build-a-ghost-cms-theme/) - freeCodeCamp walkthrough from install to custom theme creation.
 - [Fix Ghost CMS Errors](https://www.freecodecamp.org/news/fix-ghost-cms-errors/) - freeCodeCamp troubleshooting guide for common Ghost errors.
 
 ### Courses
@@ -617,21 +605,16 @@ Educational content for learning Ghost.
 - [Why I Left WordPress For Ghost CMS](https://www.youtube.com/watch?v=IewnxUAgsLc) - Real-world comparison and migration story.
 - [10 Ways Ghost Beats WordPress](https://www.youtube.com/watch?v=YFr_4NNc-S0) - Feature comparison video.
 
-### Case Studies
-
-- [30 Successful Ghost Websites](https://electronthemes.com/blog/case-study-top-30-successful-ghost-websites) - Brands using Ghost: Unsplash, Cloudflare, Duolingo, Buffer, Airtable.
-
 ---
 
 ## Community
 
 Places where the Ghost community gathers.
 
-- [Ghost Forum](https://forum.ghost.org/) - Official community forum for discussions and support.
 - [Reddit r/Ghost](https://www.reddit.com/r/ghost) - News, highlights, and user discussions.
 - [GitHub (TryGhost)](https://github.com/tryghost) - Source code, issues, releases, feature requests.
 - [Ghost on Twitter/X](https://twitter.com/ghost) - Official updates and announcements.
-- [StackOverflow (tagged ghost)](https://stackoverflow.com/questions/tagged/ghost) - Technical Q&A for developers.
+- [Stack Overflow (tagged ghost)](https://stackoverflow.com/questions/tagged/ghost) - Technical Q&A for developers.
 
 ---
 
@@ -714,7 +697,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 
 - [Amazon S3](https://ghost.org/integrations/amazon-s3/) - Cloud storage for images and assets.
 - [Azure Storage](https://ghost.org/integrations/azure-storage/) - Microsoft cloud storage.
-- [Google Cloud Storage](https://ghost.org/integrations/google-cloud-storage/) - Google cloud storage for media.
+- [Google Cloud Storage](https://ghost.org/integrations/google-cloud-storage/) - Cloud storage for media via Google Cloud.
 - [Cloudinary](https://ghost.org/integrations/cloudinary/) - Image and video management platform.
 - [Backblaze](https://ghost.org/integrations/backblaze/) - Affordable cloud storage.
 - [Imgur](https://ghost.org/integrations/imgur/) - Image hosting service.
@@ -769,7 +752,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Intravert](https://ghost.org/integrations/intravert/) - Content personalization.
 - [Momently](https://ghost.org/integrations/momently/) - Real-time web analytics.
 - [Udesly](https://ghost.org/integrations/udesly/) - Webflow to Ghost migration.
-- [Custom RSS](https://ghost.org/integrations/custom-rss/) - Custom RSS feed generation.
+- [Custom RSS](https://ghost.org/integrations/custom-rss/) - Feed generation tools for custom RSS.
 - [Let's Encrypt](https://ghost.org/integrations/lets-encrypt/) - Free SSL certificates.
 - [CookieYes](https://ghost.org/integrations/cookieyes/) - GDPR cookie consent management.
 - [Google AdSense](https://ghost.org/integrations/google-adsense/) - Advertising monetization.
@@ -791,6 +774,4 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 
 Suggestions and corrections are welcome. Please read the [contribution guide](CONTRIBUTING.md) before opening a pull request, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
