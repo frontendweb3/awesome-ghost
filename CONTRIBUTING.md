@@ -1,1 +1,30 @@
-/home/officialrajdeepsingh/opensource/awesome-ghost/docs/contributing/index.mdx
+# Contributing
+
+Thanks for helping keep this list useful. Before opening a pull request, please read the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## What belongs here
+
+Add resources that are clearly useful to Ghost publishers or developers, actively maintained where possible, and available at a stable link. A project can be free, open source, or commercial; it should be genuinely relevant rather than promotional.
+
+Please do not submit affiliate links, duplicate entries, link collections, or your own project without a clear reason it belongs in the list.
+
+## Add an item
+
+1. Find the most specific existing category. Create a new category only when it will contain more than one useful entry.
+2. Add the item at the end of that category, using this format:
+
+   ```markdown
+   - [Project name](https://example.com) - A short, factual description.
+   ```
+
+3. Keep descriptions concise, use sentence case, and check that the link works.
+4. Run the checks locally:
+
+   ```sh
+   pnpm format
+   pnpm lint
+   ```
+
+5. Open a pull request that explains what you added, updated, or removed.
+
+Corrections to existing entries are just as welcome as new additions.

@@ -17,6 +17,7 @@
     "url": "https://github.com/frontendweb3/awesome-ghost/issues"
   },
   "scripts": {
+    "docs": "bash scripts/sync-docs.sh",
     "format": "pnpm dlx prettier --write ./README.md",
     "lint": "npx awesome-lint ./README.md",
     "test": "pnpm run format && pnpm run lint"

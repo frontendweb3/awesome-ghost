@@ -1,0 +1,21 @@
+name: Sync docs/ from root files
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Sync docs/
+        run: bash scripts/sync-docs.sh
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: sync docs/ from root files"
