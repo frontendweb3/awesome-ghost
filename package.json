@@ -20,7 +20,8 @@
     "docs": "bash scripts/sync-docs.sh",
     "format": "pnpm dlx prettier --write ./README.md",
     "lint": "npx awesome-lint ./README.md",
-    "test": "pnpm run format && pnpm run lint"
+    "test": "pnpm run format && pnpm run lint",
+    "start": "npx @docs.page/cli --api-url https://docs.page preview --port 4000"
   },
   "homepage": "https://github.com/frontendweb3/awesome-ghost#readme",
   "devDependencies": {
