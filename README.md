@@ -750,6 +750,7 @@ Official integrations from the [Ghost integrations directory](https://ghost.org/
 - [Disqus](https://ghost.org/integrations/disqus/) - Managed comment system.
 - [Cove Comments](https://ghost.org/integrations/cove-comments/) - Privacy-focused commenting.
 - [Talkyard](https://ghost.org/integrations/talkyard/) - Open-source commenting and forum.
+- [Open Remark](https://open-remark.zeon.studio) - Add a full-featured comment system to Astro, Hugo, Next.js, and more with just two lines of HTML.
 
 ### Utility
 
