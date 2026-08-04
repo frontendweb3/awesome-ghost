@@ -52,5 +52,8 @@
       "href": "https://x.com/frontendweb3"
     }
   ],
-  "socialPreview": "/docs/assets/awesome-ghost.png"
+  "socialPreview": "/docs/assets/awesome-ghost.png",
+  "scripts": {
+    "googleAnalytics": "G-8DPZGZ5KQW"
+  }
 }
