@@ -202,6 +202,7 @@ Community-maintained themes available at no cost.
 - [Asgar](https://github.com/stefanbc/Asgar) - Two-column, clean and minimalist theme.
 - [Kusi Doc](https://github.com/godofredoninja/kusi-doc) - Beautiful documentation theme from the author of Simply.
 - [Scriptor](https://github.com/JustGoodThemes/Scriptor-Ghost-Theme) - Minimal, clean, modern theme for writers.
+- [Pod](https://github.com/magicpages/pod) - Podcast theme that serves its own iTunes-spec RSS feed, with an audio player, chapters, and a deep-linked subscribe page.
 
 ### Premium Themes
 
@@ -373,6 +374,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [ghost-docker-dev](https://github.com/eddywashere/ghost-docker-dev) - Multi-theme Ghost dev environment via Docker Compose.
 - [ghost-myrtle](https://github.com/betschki/ghost-myrtle) - CLI for generating demo content for Ghost themes.
 - [ghost-ipfs](https://github.com/alexbakers/ghost-ipfs) - IPFS storage adapter for Ghost.
+- [Kalotyp](https://github.com/magicpages/kalotyp) - Open-source image editor that installs into Ghost admin, with crop, annotate, redact, resize, and filter tools.
 
 ### CLI Tools
 
@@ -396,6 +398,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [Ghost Theme Development Explained](https://dev.to/naveen_gaur/ghost-cms-theme-development-explained-posthbs-partials-and-related-posts-45c8) - Deep dive into post.hbs, partials, and Handlebars context debugging.
 - [Ghost Local Dev Workflow](https://stackingjones.com/ghost-local-dev-workflow/) - Practical symlink-based local development workflow.
 - [Docker + Livereload Theme Dev](https://nick.recoil.org/articles/ghost-development-setup/) - Docker-based Ghost dev with Gulp live reload.
+- [Ghost 404 Templates](https://github.com/magicpages/ghost-404-templates) - Five drop-in `error-404.hbs` templates, each a single self-contained file.
 
 ### Handlebars Helpers
 
@@ -467,6 +470,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Ghost-Meilisearch](https://github.com/MFYDev/ghost-meilisearch) - Full-text search with sub-50ms results, typo tolerance, and AI semantic search.
 - [Fuse.js for Ghost](https://brightthemes.com/blog/ghost-search-fusejs) - Client-side fuzzy search using Fuse.js.
 - [Vellumine](https://vellumine.com/) - SaaS for Ghost full-text search with analytics.
+- [Ghost-Typesense](https://github.com/magicpages/ghost-typesense) - Typesense-backed search with a drop-in UI, a CLI for content syncing, and a webhook handler for real-time index updates.
 
 ### Comments
 
@@ -564,7 +568,7 @@ Resources for deploying, maintaining, and scaling Ghost.
 
 ## Migrate to Ghost
 
-Official migration guides for moving your content to Ghost from other platforms.
+Guides and tools for moving your content to Ghost from other platforms.
 
 - [Substack to Ghost](https://docs.ghost.org/migration/substack/) - Migrate from Substack to Ghost.
 - [Beehiiv to Ghost](https://docs.ghost.org/migration/beehiiv/) - Migrate from Beehiiv to Ghost.
@@ -581,6 +585,7 @@ Official migration guides for moving your content to Ghost from other platforms.
 - [Jekyll to Ghost](https://docs.ghost.org/migration/jekyll/) - Migrate from Jekyll to Ghost.
 - [Ghost to Ghost](https://docs.ghost.org/migration/ghost/) - Import/export between Ghost sites.
 - [Other Platforms](https://docs.ghost.org/migration/custom/) - Custom import for unsupported platforms.
+- [Stripe Migration Toolkit](https://github.com/magicpages/ghost-stripe-migration-toolkit) - Toolkit for moving paid subscribers from a platform-controlled Stripe account, such as Beehiiv's, to your own without double-charging.
 
 ---
 
