@@ -385,6 +385,7 @@ Everything required to build applications, themes, and integrations for Ghost.
 - [ghostctl](https://github.com/stumpyfr/ghostctl) - Full-featured Go CLI for Content and Admin APIs with diff/sync.
 - [cli-ghost](https://github.com/lukeslp/cli-ghost) - Single-file Python CLI with multiple site profiles.
 - [Ghost Admin CLI & Skill](https://github.com/nixihz/ghost-admin-skill) - NPX-installable CLI with full CRUD for all Ghost resources.
+- [ghost-github-portfolio](https://github.com/GeiserX/ghost-github-portfolio) - CLI that writes your most starred GitHub repositories to a Ghost page as a grid of cards.
 
 ### Editors & IDE Extensions
 
