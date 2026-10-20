@@ -500,6 +500,7 @@ Resources that help creators publish, grow, and monetize content.
 - [Junia AI](https://www.junia.ai/blog/ai-tools-with-ghost-integration) - SEO-focused AI writing tool with one-click Ghost publishing.
 - [Blogging with N8N](https://github.com/christancho/Blogging-with-N8N) - AI-powered blog automation suite for Ghost CMS.
 - [Suparank](https://github.com/egebese/suparank) - AI-powered SEO content creation toolkit for Ghost.
+- [Seonix](https://seonix.ai) - SEO automation service that researches keywords, writes articles and publishes them to a Ghost blog on a schedule.
 
 ---
 
